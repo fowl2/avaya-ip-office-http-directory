@@ -14,8 +14,9 @@ Requires
   
 Instructions
 ---
-  1.  Extract zip into wwwroot, check SQL connection string and query in .aspx file.  
-  2.  Ensure http://\<IP of server\>/system/dir/cfg\_dir\_list returns directory.  
+  1.  Place `system` directory in `wwwroot`
+  2.  Edit `cfg_dir_lis.aspx` to set the SQL connection string and query.  
+  2.  Ensure http://_\<IP of server\>_/system/dir/cfg\_dir\_list returns directory.  
   3.  Configure IP Office to use HTTP directory: Open Manager, then set the following under System -> Directory Services -> HTTP:
     *  Directory Type: "IP Office"  
     *  Source: IP of web server  
